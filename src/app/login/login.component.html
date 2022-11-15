@@ -1,0 +1,106 @@
+<!---------------------------login page ------------------------------------------------>
+<!-- <section id="section-id" >
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-6">
+                    <img src="../../assets/image_processing20220107-29527-faafhi 1.svg" alt="">
+                   </div> -->
+<!------------------------------- logo field header--------------------------------- -->
+<!-- <div class="wrapper-field"> -->
+<!-- <div class="col-lg-6 col-6" >
+                <div class="centum-logo">
+                <img  src="../../assets/Centum App_logo_1-01 1.svg" alt="">
+                </div>
+                 <div class="logo-image" >
+                  <div class="hello-again">
+                      <h2>
+                       Hello Again
+                      </h2>
+                     </div>
+                     <span>Enter to digital learning</span>
+                 </div> -->
+<!---------------------------------- input text field ------------------------------------------>
+<!-- <div class="input-text">
+                  <div class="label-text">
+                    <label for="">Email</label>
+                  </div>
+                 <div class="input-field" >
+                  <input type="text" pInputText />
+                 </div>
+                 <div class="label-text" >
+                  <label for="">Password</label>
+                 </div>
+                 <div class="input-field" >
+                  <input type="text" pInputText />
+                 </div>
+                 <div class="btn-login" >
+                  <button pButton type="button" label="Primary"></button>
+                 </div>
+                </div>   
+               </div>     
+            </div>           
+        </div>
+    </section> -->
+
+<section id="section-id">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-6">
+                <div class="wrapper-one">
+                    <div class="centum-logo">
+                        <img src="../../assets/Group 8.svg" alt="">
+                    </div>
+                    <div class="group-img">
+                        <img src="../../assets/image_processing20220107-29527-faafhi 1.svg" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-6 col-6">
+                <div class="wrapper-two">
+                    <div class="blue-logo">
+                        <img src="../../assets/Centum App_logo_1-01 1.svg" alt="">
+                    </div>
+                    <div class="hello-again">
+                        <h2>
+                            Hello Again
+                        </h2>
+                    </div>
+                    <span class="digi-learning">
+                        Enter to digital learning
+                    </span>
+
+                    <div [formGroup]="user" class="form">
+                        <div class="label-field">
+                            <label for="">Email</label>
+                        </div>
+                        <div class="text-field">
+                            <input formControlName="Email" placeholder="email" type="text">
+                            <div *ngIf="register['Email'].invalid && (register['Email'].dirty||register['Email'].touched)">
+                                <div class="EmailInput" *ngIf="register['Email'].errors?.required">
+                                    Email is required
+                                </div>
+                            </div>
+                        </div>
+                        <div class="label-field">
+                            <label for="">Password</label>
+                        </div>
+                        <div class="text-field">
+                            <input formControlName="password" placeholder="password" type="text">
+                            <div *ngIf="register['password'].invalid && (register['password'].dirty||register['password'].touched)">
+                                <div class="nameInput" *ngIf="register['password'].errors?.required">
+                                    Password is required
+                                </div>
+                                <span class="nameInput" *ngIf="register['password'].errors?.['pattern']">Invalid email address format</span>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="btn-login" >
+                            <button pButton type="button" (click)="login()" >Login</button>
+                    </div>                
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>

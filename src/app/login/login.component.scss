@@ -1,0 +1,138 @@
+// #section-id{
+//     .centum-logo{
+//         padding-top: 30px;
+//         padding-left: 30px;
+
+
+//     }
+//     .logo-image{
+//         padding-left: 30px;
+//     }
+//     .hello-again{
+//         color: #021F55;
+//         // font-family: 'Montserrat';
+//         font-style: normal;
+//         font-weight: 600;
+//         padding-top: 40px;
+//     }
+//     .input-text{
+//         position: absolute;
+//         padding-top: 30px;
+//     //     border: 1px solid #E1E7EA;
+//         border-radius: 3px;
+//         // height: 20px;
+//     }
+//     .label-text{
+//         color: #1B2228;
+//         padding-top:20px;
+//         padding-bottom: 6px;
+//     }
+//     .p-inputtext {
+//         height: 40px;
+//     }
+//    .btn-login{
+//     // width: 30px;
+//     padding-top: 20px;
+//    }
+//    .p-element {
+//     width: 100%;
+//     height: 30px;
+//    }
+
+// }
+
+
+
+
+
+// css of centum ui
+
+#section-id {
+    width: 100%;
+
+    .centum-logo {
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    .wrapper-one {
+        background: #2F4BDE;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .group-img {}
+
+    .hello-again {
+        color: #021F55;
+        margin-top: 65px;
+
+        // display: flex;
+        // justify-content: center;
+        // padding-top: 6px;
+
+    }
+
+    .wrapper-two {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        // height: 50%;
+    }
+
+    .blue-logo {
+        margin-top: 60px;
+        // display: flex;
+        // justify-content: center;
+        // padding-top: 10%;
+    }
+
+    .digi-learning {
+        // margin-top: 20px;
+        // display: flex;
+        // justify-content: center;
+    }
+    .hello-again{
+        margin-top: 45px;
+    }
+
+    .form {
+        margin-top: 60px;
+        // padding-left: 25%;
+        // padding-top: 15%;
+    }
+
+    .label-field {
+        padding-top: 20px;  
+       padding-bottom: 6px;
+       font-style: normal;
+       font-weight: 500;
+       font-size: 14px;
+
+    }
+
+    .text-field {
+        // width: 59%;
+    }
+    .btn-login{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .nameInput{
+        color: red
+    }
+    .EmailInput{
+        color: red;
+    }
+}
+
+
+
+
